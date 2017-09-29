@@ -1,3 +1,6 @@
 git global -- user.name "dsel"
 git global -- user.email "email.dsel"
 git clone https://github.com/dsel/myRepo.git
+git add "fileName"
+git commit -m "My Message" fileName
+git push -u origin master (This popup the window for ask user name and password for github account)
