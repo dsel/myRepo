@@ -1,0 +1,3 @@
+git global -- user.name "dsel"
+git global -- user.email "email.dsel"
+git clone https://github.com/dsel/myRepo.git
