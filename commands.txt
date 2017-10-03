@@ -4,3 +4,53 @@ git clone https://github.com/dsel/myRepo.git
 git add "fileName"
 git commit -m "My Message" fileName
 git push -u origin master (This popup the window for ask user name and password for github account)
+
+
+java installtion
+Download Windows Offline (64-bit)
+https://java.com/en/download/manual.jsp 
+Run as admin
+Setup environment variable;
+Add JAVA_HOME value = C:\Program Files\Java\jre1.8.0_144
+Update PATH with ";C:\Program Files\Java\jre1.8.0_144\bin"
+Test java in command prompt by "java"
+
+
+Jenkin Installation
+https://jenkins.io/
+go to download
+download for windows
+down load war file
+java -jar Jenkins.war
+after successfull installation
+http://localhost:8080
+Go to installation screen right click mouse mark and copy the password and paste it password input box
+
+create first admin user
+dsel
+MyPass
+Selvaraj
+email.dsel@gmail.com
+
+
+Install as Service
+
+Error
+Installing a service
+[.jenkins] $ C:\Users\Administrator\.jenkins\jenkins.exe install
+2017-10-04 10:43:24,424 INFO  - Installing the service with id 'jenkins'
+2017-10-04 10:43:24,439 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+WMI.WmiException: AccessDenied
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+
+http://localhost:8080/login?from=%2F
